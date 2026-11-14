@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-06-23" view-index="0" gantt-divider-location="459" resource-divider-location="300" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="333" order="0"/>
+        <field id="tpd4" name="Begin date" width="27" order="1"/>
+        <field id="tpd5" name="End date" width="98" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[35,16,43,13,51,55,20,26,27,58,29,30,38,46,25,41,49,17,31,42,48,0,52,11,44,47,28,24,12,50,45,53,40,37,7,3,59,56]]></timeline>
+        <option id="color.recent"><![CDATA[#ffff00 #33ff33 #ff9900 #ccffcc #cccc00 #660066 #3300cc #f4f4f4 #ff6600 #ff00ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="3" uid="8d4f6d54e7a04de3ab2c7a4192eabb20" name="determinacion de requerimientos" color="#6600cc" meeting="false" start="2026-05-04" duration="10" complete="0" expand="false">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <task id="0" uid="003ca079ac67458b8556a644eab2cf35" name="requerimientos funcionales" color="#ff9900" meeting="false" start="2026-05-04" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de definir requerimientos funcionales, se detallan todas las acciones que el sistema debe permitir realizar, como visualizar productos, ver detalles y generar un mensaje de contacto.]]></notes>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" uid="3e5307d6ef6a4575b5c58f41bc8b78d1" name="actores del sistema" color="#ff3300" meeting="false" start="2026-05-04" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de definir actores del sistema, se identifican las personas que van a interactuar con el sistema, como el cliente que navega el catálogo y el posible administrador.]]></notes>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" uid="d207400cc06a4d6e96e3ba700e27ee3a" name="funciones principales" color="#ff6666" meeting="false" start="2026-05-04" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de definir funciones principales, se seleccionan y priorizan las funcionalidades más importantes que el sistema debe cumplir para funcionar correctamente.]]></notes>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="f38eef22662a4d5aa6397aa1226ac0a6" name="requerimientos no funcionales" meeting="false" start="2026-05-11" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de definir requerimientos no funcionales, se describen las características de calidad del sistema, como que sea fácil de usar, rápido y adaptable a dispositivos móviles.]]></notes>
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="2343b46add264bc182518fd153ef60a6" name="documento final" color="#6633ff" meeting="false" start="2026-05-11" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de redactar el documento final, se organiza toda la información obtenida en un formato claro, estructurado y listo para ser presentado.]]></notes>
+            </task>
+            <task id="12" uid="64acebd3db7141f28afc8ed5322da992" name="correciones" color="#ffff00" meeting="false" start="2026-05-11" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de correcciones, se revisa el documento completo para detectar errores, mejorar la redacción y asegurar que toda la información sea clara.]]></notes>
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="13" uid="31bef3c77699470ebeb656a2e210b177" name="analisis del sistema" color="#33ff00" meeting="false" start="2026-05-18" duration="15" complete="0" expand="false">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+            <task id="15" uid="8041a0dfa3ec419e8c270bf410a7d80e" name="analisis general del sistema" color="#ccffcc" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de análisis general del sistema, se describe el funcionamiento completo del sistema explicando cómo interactúan sus diferentes partes.]]></notes>
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="7a3266aa83134f8da971d66a43de2402" name="diagrama de casos de uso" color="#99ff66" meeting="false" start="2026-05-25" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diagrama de casos de uso, se muestran las acciones que puede realizar cada actor dentro del sistema, representando sus interacciones principales.]]></notes>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="048aabe27b0b4134857c0718eef3c9db" name="actores del sitema" color="#66ffcc" meeting="false" start="2026-05-25" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de actores del sistema, se detalla el rol de cada tipo de usuario y las acciones específicas que puede llevar a cabo.]]></notes>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="25d31389bf914569b1e44e10caeedd5f" name="estructura de la pagina" meeting="false" start="2026-06-01" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de estructura de la página, se define la organización general del sitio, incluyendo sus secciones principales como inicio, catálogo y página de producto.]]></notes>
+            </task>
+            <task id="20" uid="4f145f15dade4866a8414dcfe04155a2" name="categorias" color="#99ff99" meeting="false" start="2026-06-01" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de categorías, se establecen los distintos tipos de productos que se van a mostrar dentro del catálogo para facilitar la navegación.]]></notes>
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="23" uid="e06de7c8835c4768ad39bc77f22c9e22" name="diseño del sistema" meeting="false" start="2026-06-08" duration="20" complete="0" expand="true">
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+            <task id="24" uid="e2a68fca83304f0aba1430400eedc320" name="diseño pagina principal" color="#990000" meeting="false" start="2026-06-08" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diseño de la página principal, se crea un boceto de cómo se verá la pantalla inicial del sistema, organizando los elementos principales.]]></notes>
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="5e10063884b1409f990c43132fa3cb74" name="diseño catalogo" color="#ff9900" meeting="false" start="2026-06-08" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diseño del catálogo, se define la forma en que se van a presentar los productos dentro del sistema.]]></notes>
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="b513e280ed7f4345aa5bec3263395470" name="diseño pagina producto" color="#6666ff" meeting="false" start="2026-06-15" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diseño de la página de producto, se establece cómo se mostrará la información detallada de cada producto individual.]]></notes>
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" uid="ebe4a8a16f7344af8e121b89973f54c8" name="diseño navegacion" color="#ccffcc" meeting="false" start="2026-06-15" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diseño de navegación, se determina cómo el usuario se moverá entre las distintas secciones del sistema.]]></notes>
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" uid="e0605c7442074d2382e5e1922fedbe6f" name="diseño visual general" color="#ffff00" meeting="false" start="2026-06-22" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diseño visual general, se define el estilo global del sistema para mantener una coherencia visual.]]></notes>
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" uid="430950b065e24b7e86fe38293252a690" name="colores y tipografia" color="#ffff99" meeting="false" start="2026-06-22" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de colores y tipografía, se seleccionan los colores y tipos de letra que se utilizarán en todo el sistema.]]></notes>
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" uid="d4f7bfe8e5364f02ae6a7e9d794726bc" name="diseño final" color="#ccffcc" meeting="false" start="2026-06-29" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diseño final, se integran todos los elementos diseñados para obtener una versión completa del sistema.]]></notes>
+            </task>
+            <task id="31" uid="f2bc7b9be2ed48abaa748acf942da3ba" name="ajustes" color="#ccffcc" meeting="false" start="2026-06-29" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de ajustes, se realizan modificaciones finales para mejorar la apariencia y usabilidad del diseño.]]></notes>
+            </task>
+        </task>
+        <task id="35" uid="0906087ae89b4f99ab9adbb68a132910" name="desarollo del sistema" color="#006666" meeting="false" start="2026-07-06" duration="40" complete="0" expand="true">
+            <depend id="46" type="2" difference="0" hardness="Strong"/>
+            <task id="60" uid="c8a550bb4cee4b76b63ec8677e27d567" name="diagrama de flujo" color="#ffff00" meeting="false" start="2026-07-06" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de diagrama de flujo, se representa gráficamente el recorrido que realiza el usuario dentro del sistema, desde que ingresa hasta que realiza una acción como contactar.]]></notes>
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" uid="2bf0c0f743ca495aad3bee99067ec69a" name="crear html base" color="#99ff00" meeting="false" start="2026-07-06" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de crear HTML base, se construye la estructura principal del sitio web que servirá como base para el desarrollo.]]></notes>
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" uid="cabc2a2a25fc4735a9419882b093cbc6" name="crear catalogo" color="#66ff33" meeting="false" start="2026-07-13" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de crear catálogo, se implementa la sección donde se mostrarán todos los productos disponibles.]]></notes>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="40" uid="eb47b65392a64dceaa7efcd97258af96" name="crear targetas de productos" color="#ff3300" meeting="false" start="2026-07-20" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de crear tarjetas de productos, se desarrollan los componentes visuales que representan cada producto dentro del catálogo.]]></notes>
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" uid="4ed070b4730549bbb99f67a10f1a00fa" name="agregar talles y colores" color="#99ff33" meeting="false" start="2026-07-27" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de agregar talles y colores, se incorporan opciones para que el usuario pueda seleccionar variantes del producto]]></notes>
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" uid="c9d6c77083a14c058599adb2494a60a8" name="crear pagina producto" color="#990066" meeting="false" start="2026-08-03" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de crear página de producto, se desarrolla la vista detallada de cada producto con toda su información]]></notes>
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" uid="71c9cba4792b49df8613cf81f5b82fbe" name="crear boton generar mensaje" meeting="false" start="2026-08-10" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de crear botón para generar mensaje, se programa una funcionalidad que permite al usuario generar automáticamente un mensaje de contacto.]]></notes>
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" uid="e4a4f220b0704792b446cf846b60ec97" name="ajustes visuales" meeting="false" start="2026-08-17" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de ajustes visuales, se mejoran los detalles de diseño utilizando estilos para lograr una mejor presentación.]]></notes>
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="45" uid="c610b42f86284666804c853d34a63916" name="desarrollo final" color="#00ffff" meeting="false" start="2026-08-24" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de desarrollo final, se integran todas las partes del sistema y se deja completamente funcional]]></notes>
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="46" uid="a6fd3abe64cb4d0c8e091b90da5debbb" name="pruebas" color="#cc6600" meeting="false" start="2026-08-31" duration="15" complete="0" expand="true">
+            <depend id="50" type="2" difference="0" hardness="Strong"/>
+            <task id="47" uid="a50c5fef36f54d2db130527134b055c9" name="pruebas generales" color="#996600" meeting="false" start="2026-08-31" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de pruebas generales, se verifica el funcionamiento  del prototipo para detectar posibles errores.]]></notes>
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="48" uid="cc92678f162f4714b060d40ca3ebef16" name="correccion de errores" color="#0066ff" meeting="false" start="2026-09-07" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de corrección de errores, se solucionan los problemas encontrados durante las pruebas.]]></notes>
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="49" uid="9e1f571beb3f4f52b0b3296f501d7897" name="pruebas finales" color="#99ff00" meeting="false" start="2026-09-14" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de pruebas finales, se realiza una última revisión para asegurar que funcione correctamente antes de su entrega.]]></notes>
+            </task>
+        </task>
+        <task id="50" uid="07557d149bb3494486e958ad0a76cf8e" name="implementacion" color="#ff00ff" meeting="false" start="2026-09-21" duration="15" complete="0" expand="false">
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+            <task id="51" uid="2de681ca42b445cb8cce27e241a9b801" name="documentacion final" color="#ff9900" meeting="false" start="2026-09-21" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de documentación final, se elabora un documento que explica el funcionamiento del sistema y su desarrollo.]]></notes>
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" uid="cae5fab5a32a4b5f9f226daac7191514" name="preparar presentacion" color="#3300cc" meeting="false" start="2026-09-28" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de preparar presentación, se organiza el material necesario para exponer el proyecto.]]></notes>
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" uid="59c807271e544c97ba803586d674e07e" name="ajustes finales" color="#660066" meeting="false" start="2026-10-05" duration="5" complete="2" expand="true">
+                <notes><![CDATA[En la subetapa de ajustes finales, se realizan las últimas mejoras antes de dar por terminado el sistema.]]></notes>
+                <depend id="55" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="55" uid="54238fd037f54def829d00c54544d0a7" name="etapa final" color="#cccc00" meeting="false" start="2026-10-19" duration="11" complete="0" expand="false">
+            <task id="56" uid="50e3eaa74de44fa8bd6d2b8eae6b41fc" name="mejoras visuales" color="#ccffcc" meeting="false" start="2026-10-19" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de mejoras visuales, se optimiza la apariencia del sistema para que resulte más atractivo y profesional.]]></notes>
+                <depend id="58" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="58" uid="3abc4cb650544b98a23c402c325d5f2e" name="revision final" color="#ff9900" meeting="false" start="2026-10-26" duration="5" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de revisión final, se controla que todo el proyecto esté completo y correctamente realizado.]]></notes>
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" uid="3397a900bfce4ac78c84399f4a893f89" name="entrega final" color="#33ff33" meeting="false" start="2026-11-02" duration="1" complete="0" expand="true">
+                <notes><![CDATA[En la subetapa de entrega final, se presenta oficialmente el sistema junto con toda su documentación.]]></notes>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
